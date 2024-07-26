@@ -46,7 +46,7 @@ b {
 }
 
 body {
-    overflow: hidden;
+    overflow: auto;
     background-image: url(../68110.gif);
     text-align: center;
     color: white;
@@ -57,13 +57,10 @@ body {
 }
 
 
-
 #content {
-
     color: white;
     font-size: 20px;
     padding-bottom: 100px;
-
     margin: auto;
     padding-top: 200px;
 }
@@ -77,12 +74,7 @@ body {
     padding-top: 120px;
 }
 
-
-/*footer*/
-
 .footer {
-
-
 position: fixed;
 bottom: 0;
 width: 100%;
