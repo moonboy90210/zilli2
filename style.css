@@ -2,7 +2,7 @@
 /*nav bar*/
 
 .navbar {
-    overflow: hidden;
+
     color: red;
     position: fixed;
     padding: 10px;
@@ -13,51 +13,57 @@
     /* Full width */
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    
+
 }
-.navright{
+
+.navright {
     float: left;
     display: block;
     padding: 10px;
     font-size: 20px;
     padding-left: 20px;
 }
-.navbar a {
+
+.navleft {
     float: right;
-   display: block; 
-    color: white;
-    text-align: center;
-    padding: 5px;
-    padding-right: 30px;
-    color: red;
-    margin-right: 15px;
-    text-decoration: none;
+    padding: 15px;
+    padding-right: 20px;
 }
+
+.navbar a {
+    text-decoration: none;
+    color: red;
+    padding: 10px;
+}
+
 b {
     color: red;
 }
+
 .navbar a:hover {
     background-color: white;
- 
+
 }
+
 body {
+    overflow: hidden;
     background-image: url(../68110.gif);
     text-align: center;
     color: white;
     font-family: 'Raleway', sans-serif;
-  background-size: 100% 100%;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 
 
-#content {   
-    
+#content {
+
     color: white;
     font-size: 20px;
     padding-bottom: 100px;
-  
+
     margin: auto;
     padding-top: 200px;
 }
@@ -68,21 +74,21 @@ body {
     margin: auto;
     text-align: center;
     padding-bottom: 300px;
-    padding-top: 120px; 
+    padding-top: 120px;
 }
 
 
 /*footer*/
 
 .footer {
-   
 
-  
+
+position: fixed;
+bottom: 0;
+width: 100%;
     color: white;
     text-align: center;
     border-top-style: solid;
     border-top-width: 1px;
     border-top-color: red;
 }
-
-
